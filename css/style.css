@@ -1,0 +1,575 @@
+/*==COLORS==*/
+:root{
+	--header-color: #802144;
+	--menu-bars: #CA336B ;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	height: 90vh;
+
+	background: linear-gradient(to right, #fff,#635ef1);
+}
+/*pagina guia=https://www.duda.co/preview?site=/site/7e663c6d40aa45b88f452753ad996362?preview=true&languageCode=en&templateId=1104114&themeId=1104114&manifestId=-1*/
+
+/*=====HEADER MENU===*/
+header{
+	position: sticky;
+	top: 0;
+
+}
+
+.header-text{
+	font-size: 1em;
+	text-align: center;
+	background-color:#D18EA7 ;
+	color: #4D4949;
+
+}
+
+.navbar{
+	background-color:var(--header-color);
+	display: grid;
+	grid-template-columns: repeat(8, 1);
+	align-items: center;
+	
+}
+
+.navbar-title{
+	font-size: 2.5em;
+	color: #fff;
+	grid-column: 1/3;
+	padding-left: 1em;
+}
+
+
+.menu{
+	grid-column: 4/7;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	
+}
+
+
+.navbar-li a{
+	padding: 0.6em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu-bar{
+	grid-column: 8/9;
+	justify-items: center;
+	font-size: 2em;
+	display: none;
+
+}
+
+.nav-img{
+	border-radius: 50%;
+	grid-column: 2/3;
+
+}
+
+
+
+/*====MAIN====*/
+.main{
+
+}
+.main-container{
+	display: grid;
+	grid-template-columns: repeat(6, );
+	grid-template-rows: repeat(7,10em);
+	align-items: center;
+	grid-column-gap: 2em;
+	
+}
+
+.main-title{
+	grid-row: 1;
+	grid-column:1/7;
+	height: 3em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.main-img{
+	width: 100%;
+	grid-row: 2;
+	grid-column: 1/7;
+	text-align: center;
+}
+.main-img-logo{
+	box-shadow: 0.5em 0.3em 0.5em #2D2727;
+	width:500px;
+	margin-bottom: 2em;
+}
+
+.main-subtitle{
+	grid-column: 1/7;
+	grid-row: 3;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+
+
+}
+/*==Section-Children===*/
+
+.children{
+	grid-row: 4;
+	grid-column: 1/3;
+	padding: 2em;
+	box-shadow: 0.5em 0.3em 0.5em #2D2727;
+	border-top-right-radius: 4em;
+
+	
+}
+/*===CHILDR'S ELEMENTS===*/
+.fa-child{
+	font-size: 3em;
+	
+	color: var(--header-color);
+}
+.children-title{
+	padding: 0.3em;
+
+
+}
+.children-link{
+	margin-top: 1em;
+}
+.children-link a{
+	text-decoration: none;
+	color: var(--header-color);
+
+
+}
+/*==================*/
+/*==YOUTH'S ELEMENTS==*/
+.youth{
+	grid-row: 4;
+	grid-column: 3/5;
+	padding: 2em;
+	box-shadow: 0.5em 0.3em 0.5em #2D2727;
+	border-top-right-radius: 4em;
+	
+}
+.fa-heart{
+	font-size: 3em;
+	
+	color: var(--header-color);
+}
+.youth-title{
+	padding: 0.3em;
+
+}
+.youth-link{
+	margin-top: 1em;
+}
+.youth-link a{
+	text-decoration: none;
+	color: var(--header-color);
+}
+/*====================*/
+/*==ADICTION'S ELEMENTS==*/
+
+.adiction{
+	grid-row: 4;
+	grid-column: 5/7;
+	padding: 2em;
+	box-shadow: 0.5em 0.3em 0.5em #2D2727;
+	border-top-right-radius: 4em;
+	
+}
+.fa-cannabis{
+	font-size: 3em;
+	
+	color: var(--header-color);
+}
+.adiction-title{
+	padding: 0.3em;
+
+}
+.adiction-link{
+	margin-top: 1em;
+}
+.adiction-link a{
+	text-decoration: none;
+	color: var(--header-color);
+}
+/*======Section About me====*/
+
+.about{
+	grid-row:6;
+	grid-column: 2/4;
+	
+}
+.about__img{
+	
+	grid-row: 6;
+	grid-column:5/6 ;
+
+}
+.about__img--me{
+	box-shadow: 0.5em 0.3em 0.5em #2D2727;
+	height: 20em;
+	width:35em;
+}
+
+/*====ARTICLE MY MUSIC===*/
+.music{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+
+
+	
+}
+
+	
+.music__title{
+	grid-row: 1;
+	grid-column: 1/4;
+	text-align: center;
+}
+.music__text{
+	grid-row: 2;
+	grid-column: 1/4;
+	text-align: center;
+}
+
+
+
+/*======PLAY MUSIC=====*/
+
+
+/*MAIN CONTAINER MUSIC*/
+.caja__container{
+	display: grid;
+	grid-template-rows: repeat(1, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-gap: 10px;
+	margin-top: 5em;
+	
+}
+.about__container--title{
+
+}
+.about__container--text{
+
+}
+.about__container--link{
+	margin-top: 1em;
+}
+.about__container--link a{
+	text-decoration: none;
+	color: var(--header-color);
+}
+.fa-play-circle{
+	font-size: 3em;
+	color: #fff;
+	margin-top: 0.2em;
+	margin-left: 0.2em;
+	cursor: pointer;	
+}
+	
+
+.caja__left{
+	grid-column:1;
+	width: 15em;
+	height: 10em;
+	background-image: url(https://scx2.b-cdn.net/gfx/news/2019/1-music.jpg);
+	background-size: cover;
+		
+}
+
+.caja__center{
+	grid-column: 2;
+	width: 15em;
+	height: 10em;
+	background-image: url(https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/NS-WKMAG0730-1595944356.jpg);
+	background-size:cover;
+	
+	
+	
+}
+
+.caja__right{
+	grid-column: 3;
+	width: 15em;
+	height: 10em;
+	background-image: url(https://scx2.b-cdn.net/gfx/news/2019/1-music.jpg);
+	background-size: cover;
+
+}
+
+
+.caja__left--text{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5em;
+	
+	background: linear-gradient(to right, #EE6B6B,var(--header-color));
+	box-shadow: 5px 10px #888888;
+}
+/*==SUB CAJA LEFT==*/
+.caja__main--left{
+	display: flex;
+	width: 70%;
+	margin: auto;
+}
+/*==SUB CAJA CENTER==*/
+.caja__main--center{
+	display: flex;
+	width: 70%;
+	margin: auto;
+}
+.caja__center--text{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5em;
+
+	background: linear-gradient(to right, #EE6B6B,var(--header-color));
+	box-shadow: 5px 10px #888888;
+}
+/*==SUB CAJA RIGHT==*/
+.caja__main--right{
+	display: flex;
+	width: 70%;
+	margin: auto;
+}
+.caja__right--text{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5em;
+
+	background: linear-gradient(to right, #EE6B6B,var(--header-color));
+	box-shadow: 5px 10px #888888;
+}
+
+
+
+/*=====PODCAST BOTON?========*/
+
+.podcast{
+	display: grid;
+	grid-template-rows: repeat(1, 1fr);
+	justify-content: center;
+	width: 100%;
+	
+}
+
+.podcast__container{
+	width: 100%;
+	background-color: var(--header-color);
+	color: #fff;
+	font-weight:bold;
+	
+}
+
+.podcast__container-tittle{
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 12em;
+}
+
+
+/*===SECTION POST====*/
+
+.posts{
+	display: grid;
+	grid-template-rows: repeat(3,);
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	width: 100%;
+	
+	
+}
+
+.posts__tittle{
+	grid-row: 1;
+	grid-column: 1/4;
+	width: 100%;
+	height: 2em;
+	padding: 2em;
+	font-size: 1.5em;
+	
+
+}
+/*LEFT SIDE*/
+.posts__container--left{
+	grid-row: 2;
+	grid-column: 1/2;
+	
+	
+}
+.posts__text--left{
+	margin-top: 1em;
+
+}
+
+.posts__container--left a{
+	margin-top: 2em;
+
+}
+
+/*RIGHT SIDE*/
+.posts__container--right{
+	grid-row: 2;
+	grid-column: 3;
+	
+	
+}
+
+.posts__text--right{
+	margin-top: 1em;
+	
+}
+
+.posts__container--right a{
+	margin-top: 2em;
+	
+}
+
+/*SHOW--BUTTON*/
+
+.btn__container{
+	grid-row: 3;
+	grid-column: 1/4;
+	
+	
+}
+
+.btn__link{
+	justify-items: center;
+	width: 8em;
+	background-color: blue;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+ /*===BUY ARTICLE==*/
+
+ .buy{
+ 	display: grid;
+ 	grid-template-rows: repeat(2,1fr);
+ 	grid-template-columns: repeat(2,1fr);
+ 	background-color: #026D7A;
+ 	margin-top: 1em;
+ 	width: 100%;
+
+ }
+/*---LEFT SIDE--*/
+ .buy__left{
+ 	grid-row: 1/3;
+ 	grid-column: 1;
+ 	
+ }
+ .buy__left--book{
+ 	width: 20em;
+ 	height: 20em;
+ }
+
+/*--RIGHT SIDE--*/
+
+ .buy__right{
+ 	grid-row: 1/3;
+ 	grid-column: 2;
+ 	width: 100%;
+ 	height: 70%;
+ 	margin-top: 2em;
+ }
+
+ .buy__right-tittle{
+ 	margin-top: 1em;
+ }
+
+ .buy__right--text{
+ 	margin-top: 1em;
+
+ }
+ .buy__right--link{
+ 	margin-top: 1em;
+ 	
+ }
+
+ .buy__right--link a{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	font-size: 1.5em;
+ 	padding-top: 0.3em;
+ 	padding-bottom: 0.3em;
+ 	padding-left: 1em;
+ 	padding-right: 1em;
+ 	background-color: steelblue;
+ }
+
+
+
+/*===footer===*/
+.footer{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(8, 1fr);
+	align-items: center;
+}
+
+.footer__logo{
+	grid-column: 1/4;
+}
+
+.footer__container--contact{
+	grid-column: 4/5;
+}
+
+.footer__li{
+
+}
+
+.footer__container--address{
+	grid-column: 5/7;
+}
+
+.footer__btn{
+	grid-column: 7/9;
+	text-align: center;
+}
+
+
+/*--COPY RIGHT--*/
+
+.copyright{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+
+}
+
+.copyright__date{
+
+}
+
+
+.copyright__contact{
+	
+}
